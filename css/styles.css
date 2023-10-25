@@ -1,0 +1,74 @@
+body {
+  background-image: url('../images/bg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+/* table{
+  width: 1200px;
+} */
+
+.table-striped{
+  white-space: nowrap;
+  border-collapse: collapse; /* Menyatukan batas antar sel */
+  width: 100%; /* Lebar tabel sesuai dengan parent container */
+  opacity: 0.8;
+}
+
+.table-striped th {
+  background-color: #334c66; /* Ganti dengan warna yang Anda inginkan */
+  text-align: center; /* Untuk mengatur teks ke tengah */
+  color: bisque;
+}
+
+.table-striped th,
+.table-striped td {
+    border: 1px solid #ddd; /* Tambahkan batas antar sel */
+    padding: 8px; /* Spasi dalam sel */
+}
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Spotify";
+  src: url("../fonts/CircularSpotifyTxT-Med.ttf") format("truetype");
+}
+
+.student-info-table {
+  margin-bottom: 20px;
+  font-family: "Spotify", Arial, sans-serif; /* Gunakan San Francisco atau font cadangan jika tidak tersedia */
+}
+
+.student-info-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-info-table table th,
+.student-info-table table td {
+  border: 1px solid #62abffaf;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Tambahkan warna ke tabel */
+.student-info-table table th {
+  background-color: #62abffaf;
+}
+
+.student-info-table table td{
+  background-color: rgba(0, 255, 255, 0.301);
+}
+
+.bg-primary{
+  opacity: 0.85;
+}
+
+.card{
+  opacity: 0.7;
+  background-color: rgba(93, 131, 255, 0.39);
+}
